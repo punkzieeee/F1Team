@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">F1 Team</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">F1 Team</string>
+    <string name="description">Description</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="team_name">Team Racing</string>
+    <string name="team_website">www.nubiles.net</string>
+    <string name="team_year">1990</string>
+    <string name="team_base">Jakarta, Indonesia</string>
+    <string name="team_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at aliquam magna, eget rhoncus est. Nam blandit vestibulum enim, eu accumsan ipsum suscipit sed. Vestibulum gravida quam et pretium feugiat. Praesent lacinia leo sit amet convallis sodales. Duis ac condimentum neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla eget lectus massa. Aenean sit amet consectetur erat, in viverra justo. Maecenas sagittis sollicitudin neque.</string>
+    <string name="no_data">No data found</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
