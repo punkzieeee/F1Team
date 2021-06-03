@@ -41,10 +41,15 @@ android {
     lintOptions {
         abortOnError false
     }
+    defaultConfig {
+        multiDexEnabled true
+    }
     dynamicFeatures = [':favorite']
 }
 
 dependencies {
     implementation project(":core")
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.multidex:multidex:2.0.1'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
 }
