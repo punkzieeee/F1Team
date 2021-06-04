@@ -8,7 +8,8 @@
     android:background="#bfbfbf"
     android:descendantFocusability="blocksDescendants"
     android:padding="16dp"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:ignore="Overdraw">
 
     <ImageView
         android:id="@+id/image_banner"
@@ -58,7 +59,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textSize="14sp"
-            android:text="Founded: "/>
+            android:text="Founded: "
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/text_year"
@@ -84,7 +86,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textSize="14sp"
-            android:text="Home base: "/>
+            android:text="Home base: "
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/text_base"
@@ -112,7 +115,8 @@
             android:layout_marginTop="8dp"
             android:background="@android:color/transparent"
             app:srcCompat="@drawable/ic_unfavorite"
-            />
+            android:contentDescription="@string/menu_favorite"
+            tools:ignore="VectorDrawableCompat" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -120,7 +124,8 @@
             android:layout_marginTop="4dp"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:text=" | "/>
+            android:text=" | "
+            tools:ignore="HardcodedText" />
 
         <ImageButton
             android:id="@+id/share"
@@ -128,7 +133,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@android:color/transparent"
-            app:srcCompat="@drawable/ic_share"/>
+            app:srcCompat="@drawable/ic_share"
+            android:contentDescription="@string/share"
+            tools:ignore="VectorDrawableCompat" />
 
     </LinearLayout>
 
